@@ -34,7 +34,7 @@ namespace Mastermind
             
             do
             {
-                Console.Write("\n\nPlease enter your next guess..." + numTries + " remaining...\n");
+                Console.Write(numTries + " remaining..." + "Please enter your next guess:" + "\n");
                 string userGuess = Console.ReadLine();
 
                 int userCheck;
